@@ -1,0 +1,29 @@
+### Get All USERS
+### Heroku App: https://lcharleslaing-resume-api.herokuapp.com/
+
+GET http://localhost:3000/api/projects
+
+###
+GET http://localhost:3000/api/projects/1
+
+### Post New USERS
+POST http://localhost:3000/api/projects
+Content-Type: application/json
+
+{
+  "name": "Brand New Sample Project"
+}
+
+### Update One USERS
+PATCH http://localhost:3000/api/projects/1
+Content-Type: application/json
+
+{
+  "name": "Brand New Sample Project",
+  "userId": 1
+}
+
+
+### Delete One USERS
+DELETE http://localhost:3000/api/projects/3
+

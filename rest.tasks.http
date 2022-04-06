@@ -1,0 +1,37 @@
+### Heroku App: https://lcharleslaing-resume-api.herokuapp.com/
+
+### Get All publications
+GET http://localhost:3000/api/publications
+
+
+### Get One publications
+GET http://localhost:3000/api/publications/1
+
+### Post New publications
+POST http://localhost:3000/api/publications
+Content-Type: application/json
+
+{
+  "bullet": "Sample Publication 2",
+  "usersId": 4
+  }
+
+### Post New COMPANY
+POST http://localhost:3000/api/publications
+
+
+### Update One publications
+PATCH http://localhost:3000/api/publications/1
+Content-Type: application/json
+
+{
+  "bullet": "Sample Publication Updated",
+  "usersId": 4
+  }
+
+### Delete One COMPANY
+DELETE http://localhost:3000/api/publications/3
+
+
+
+
